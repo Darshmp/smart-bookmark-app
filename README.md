@@ -2,19 +2,19 @@
 
 A modern bookmark manager built with **Next.js (App Router)**, **Supabase**, and **Tailwind CSS**. Features Google OAuth authentication, real-time updates across tabs, and private bookmarks per user.
 
-## 🔗 Live Demo
+## Live Demo
 [https://smart-bookmark-app-lifp.vercel.app](https://smart-bookmark-app-lifp.vercel.app)
 
-## ✨ Features
-- ✅ **Google OAuth Authentication** (no email/password)
-- ✅ **Add Bookmarks** with URL and title
-- ✅ **Private Bookmarks** – Users can only see their own bookmarks
-- ✅ **Real-time Updates** – Bookmarks appear instantly across open tabs
-- ✅ **Delete Bookmarks** with one click
-- ✅ **Responsive Design** with Tailwind CSS
-- ✅ **Deployed on Vercel**
+## Features
+-  **Google OAuth Authentication** (no email/password)
+-  **Add Bookmarks** with URL and title
+-  **Private Bookmarks** – Users can only see their own bookmarks
+-  **Real-time Updates** – Bookmarks appear instantly across open tabs
+-  **Delete Bookmarks** with one click
+-  **Responsive Design** with Tailwind CSS
+-  **Deployed on Vercel**
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Frontend**: Next.js 14 (App Router)
 - **Authentication**: Supabase Auth (Google OAuth)
 - **Database**: Supabase PostgreSQL with Row Level Security (RLS)
@@ -24,7 +24,7 @@ A modern bookmark manager built with **Next.js (App Router)**, **Supabase**, and
 
 ---
 
-## 🧠 Problems Faced & Solutions
+##  Problems Faced & Solutions
 
 ### 1. Environment Variables Not Loading During Vercel Build
 **Problem**: During deployment on Vercel, the build failed with the error: `@supabase/ssr: Your project's URL and API key are required to create a Supabase client!` The environment variables weren't being recognized during static page generation.
@@ -63,7 +63,7 @@ A modern bookmark manager built with **Next.js (App Router)**, **Supabase**, and
 
 ---
 
-## 🚀 Local Development Setup
+##  Local Development Setup
 
 ### Prerequisites
 - Node.js 18+ 
@@ -71,9 +71,3 @@ A modern bookmark manager built with **Next.js (App Router)**, **Supabase**, and
 - Supabase account
 - Google Cloud Console account
 
-### Installation Steps
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Darshmp/smart-bookmark-app.git
-   cd smart-bookmark-app
