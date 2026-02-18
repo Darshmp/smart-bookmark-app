@@ -4,6 +4,8 @@ A modern bookmark manager built with **Next.js (App Router)**, **Supabase**, and
 
 ## Live Demo
 [https://smart-bookmark-app-lifp.vercel.app](https://smart-bookmark-app-lifp.vercel.app)
+## Project Link 
+https://github.com/Darshmp/smart-bookmark-app
 
 ## Features
 -  **Google OAuth Authentication** (no email/password)
